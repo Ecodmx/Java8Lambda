@@ -7,6 +7,7 @@ public class ThreadLambda {
 
         //before 1.8
         new Thread(new Runnable() {
+            @Override
             public void run() {
                 System.out.println("Thread run");
             }
